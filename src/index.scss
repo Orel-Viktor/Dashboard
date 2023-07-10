@@ -1,0 +1,29 @@
+@import "./styles/dashboard__tools.scss";
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+}
+img {
+  max-width: 100%;
+  display: inline-block;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  padding: 0 95px 0 0;
+}

@@ -1,0 +1,14 @@
+.dashboard {
+  display: flex;
+  justify-content: space-between;
+  &__logo {
+    padding: 36px 0 0 28px;
+  }
+
+  &__tools {
+    padding: 36px 0 0 28px;
+  }
+  &__tools-inner {
+    padding: 0 0 0 11px;
+  }
+}
